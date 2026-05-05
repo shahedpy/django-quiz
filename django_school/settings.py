@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'django.contrib.humanize',
 
     'crispy_forms',
+    'crispy_bootstrap4',
 
     'classroom',
 ]
@@ -139,4 +140,5 @@ MESSAGE_TAGS = {
 
 # Third party apps configuration
 
+CRISPY_ALLOWED_TEMPLATE_PACKS = ("bootstrap4",)
 CRISPY_TEMPLATE_PACK = 'bootstrap4'
